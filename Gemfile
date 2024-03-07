@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
 
-ruby '3.2.2'
-
-# Specify your gem's dependencies
-gem 'devise', '~> 4.8.0'
+gem 'sidekiq', '~> 5.2', '>= 5.2.7'
+gem 'faraday', '~> 1.10'
